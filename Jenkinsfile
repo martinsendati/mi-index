@@ -13,7 +13,7 @@ pipeline {
    //   APP_TAG = "${BUILD_NUMBER}" <-- comentado ya que no varia su uso durante la explicación anterior.
         REGISTRY = "martooo"
         PASS = "arquitectura123"
-       
+        GIT_URL = "https://github.com/martinsendati/mi-index.git"
     }
 
     agent {
