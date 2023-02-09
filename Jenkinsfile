@@ -73,7 +73,7 @@ spec:
 
         stage('Clonar repo de server o index.html') {
             steps { 
-                git branch: 'main', changelog: false, poll: false, url: "${GIT_URL}"
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/martinsendati/mi-index.git'
             }
         }        
          stage('buildear imagen') {
